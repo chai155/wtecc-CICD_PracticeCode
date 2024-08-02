@@ -1,0 +1,11 @@
+[user]
+	email = chaitrahegde155@gmail.com
+	name = chai155
+[credential]
+	helper = store --file ~/.git-credentials
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
